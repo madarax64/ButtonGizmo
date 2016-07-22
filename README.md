@@ -18,3 +18,6 @@ usbconfig.h - This is part of the V-USB distribution, but it contains the config
 
 # Software
 Since this enumerates as a HID device, there are a number of options available for accessing it. The host side software is written in C#.NET, but there are USB libraries for basically every programming language out there. That said, the demo software here uses HIDSharp (because I wanted the demo to run across platforms). 
+
+# The Protocol
+The communications protocol (types and meanings of messages from the device) is documented on the Wiki.
